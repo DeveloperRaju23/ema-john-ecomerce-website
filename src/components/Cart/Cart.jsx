@@ -27,7 +27,8 @@ const Cart = ({ cart, handleClearCart, children }) => {
     const grandTotal = totalPrice + totalShipping + tax;
 
     return (
-        <div className='cart'>
+      <div className='container'>
+          <div className='cart'>
             <h4>Order Summary</h4>
             <p>Selected Items: {quantity}</p>
             <p>Total Price: ${totalPrice}</p>
@@ -40,6 +41,7 @@ const Cart = ({ cart, handleClearCart, children }) => {
             </button>
             {children}
         </div>
+      </div>
     );
 };
 

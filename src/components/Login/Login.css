@@ -1,0 +1,152 @@
+.form-container {
+  box-sizing: border-box;
+  width: 500px;
+  height: 700px;
+  background: #ffffff;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  margin: 40px auto;
+  position: relative;
+}
+.login-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: 0.0025em;
+  color: #2a414f;
+  text-align: center;
+  margin-top: 38px;
+  margin-bottom: 29px;
+}
+.form-control label {
+  display: block;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+  letter-spacing: 0.0015em;
+  color: #2a414f;
+  margin-bottom: 10px;
+}
+
+.form-control input {
+  box-sizing: border-box;
+  width: 415px;
+  height: 55px;
+  border: 1px solid #95a0a7;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 14px;
+  
+}
+
+.form-control {
+  padding-left: 42px;
+  padding-right: 42px;
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+  width: 415px;
+  height: 55px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+  color: #0e161a;
+  margin-top: 10px;
+  margin-left: 42px;
+  margin-right: 42px;
+  display: inline-block;
+  background: rgba(255, 153, 0, 0.3);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.submit-btn:hover {
+  background: rgba(231, 161, 55, 0.818);
+}
+
+.create-account {
+  text-align: center;
+  margin-top: 14px;
+}
+
+.create-account p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 18px;
+  letter-spacing: 0.0025em;
+  color: #2a414f;
+}
+
+.create-account span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 18px;
+  letter-spacing: 0.0025em;
+  color: #ff9900;
+  cursor: pointer;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 24px;
+    color: #95A0A7;
+}
+
+hr{
+width: 145px;
+height: 0px;
+border: 1px solid #95A0A7;
+margin-left: 20px;
+margin-right: 20px;
+}
+.google-image{
+    border: 1px solid #95A0A7;
+    padding: 18px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 42px;
+    margin-right: 42px;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+.google-image img{
+    width: 30px;
+    margin-right: 14px;
+}
+
+.google-title{
+    display: flex;
+    align-items: center;
+}
+.google-title h5{
+    font-size: 18px;
+    color: #4c5255;
+}
+
+.show{
+  position: absolute;
+  top: 37%;
+  right: 15%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.show:hover{
+  color: #ff9900;
+}

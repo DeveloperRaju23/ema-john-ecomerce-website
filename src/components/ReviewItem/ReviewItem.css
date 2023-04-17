@@ -6,6 +6,7 @@
     padding: 8px 25px 8px 8px;
     display: flex;
     align-items: center;
+    margin-top: 40px;
 }
 
 .review-item .product-title {
@@ -43,6 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .delete-icon{
     color: #EB5757;

@@ -1,13 +1,22 @@
 .cart {
     background-color: rgba(255, 153, 0, 0.3);
-    ;
-    padding: 25px;
+    padding: 25px 10px;
     position: sticky;
     top: 0;
 }
-
+.cart h4{
+    font-size: 26px;
+}
+.cart p{
+    font-size: 20px;
+    padding: 12px 0;
+}
+.cart h6{
+    font-size: 20px;
+    padding: 12px 0;
+}
 .btn-clear-cart {
-    width: 90%;
+    width: 96%;
     height: 56px;
     font-size: 21px;
     margin: 10px auto;
@@ -17,4 +26,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+    padding: 0px 10px;
+    border-color: darkslateblue;
 }

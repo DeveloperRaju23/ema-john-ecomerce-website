@@ -10,7 +10,8 @@ const Product = (props) => {
 
 
     return (
-        <div className='product'>
+        <div className='container'>
+            <div className='product'>
             <img src={img} alt="" />
             <div className='product-info'>
                 <h6 className='product-name'>{name}</h6>
@@ -22,6 +23,7 @@ const Product = (props) => {
                 Add to Cart
                 <FontAwesomeIcon icon={faShoppingCart} />
                 </button>
+        </div>
         </div>
     );
 };
